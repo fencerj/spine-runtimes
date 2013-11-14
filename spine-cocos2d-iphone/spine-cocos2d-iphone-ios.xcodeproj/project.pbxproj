@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CC39FD017E6D6AC00021235 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC39FCF17E6D6AC00021235 /* CoreText.framework */; };
 		43C3282B170B0BF6004A9460 /* ExampleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32827170B0BF6004A9460 /* ExampleLayer.m */; };
 		43C3282F170B0C19004A9460 /* spine-cocos2d-iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3282D170B0C19004A9460 /* spine-cocos2d-iphone.m */; };
 		43C32855170B0C6C004A9460 /* Animation.c in Sources */ = {isa = PBXBuildFile; fileRef = 43C32830170B0C6C004A9460 /* Animation.c */; };
@@ -41,9 +42,6 @@
 		43C32885170B0DBE004A9460 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C32879170B0DBE004A9460 /* Icon.png */; };
 		43C32886170B0DBE004A9460 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C3287A170B0DBE004A9460 /* Icon@2x.png */; };
 		43C32888170B0DBE004A9460 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 43C3287C170B0DBE004A9460 /* iTunesArtwork */; };
-		43C3288D170B0EF3004A9460 /* LICENSE_cocos2d.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C3288A170B0EF3004A9460 /* LICENSE_cocos2d.txt */; };
-		43C3288E170B0EF3004A9460 /* LICENSE_CocosDenshion.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C3288B170B0EF3004A9460 /* LICENSE_CocosDenshion.txt */; };
-		43C3288F170B0EF3004A9460 /* LICENSE_Kazmath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C3288C170B0EF3004A9460 /* LICENSE_Kazmath.txt */; };
 		43C32994170B0F14004A9460 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32892170B0F14004A9460 /* CCAction.m */; };
 		43C32995170B0F14004A9460 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32894170B0F14004A9460 /* CCActionCamera.m */; };
 		43C32996170B0F14004A9460 /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32896170B0F14004A9460 /* CCActionCatmullRom.m */; };
@@ -173,6 +171,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CC39FCF17E6D6AC00021235 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		43C32826170B0BF6004A9460 /* ExampleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleLayer.h; path = example/ExampleLayer.h; sourceTree = "<group>"; };
 		43C32827170B0BF6004A9460 /* ExampleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleLayer.m; path = example/ExampleLayer.m; sourceTree = "<group>"; };
 		43C3282D170B0C19004A9460 /* spine-cocos2d-iphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "spine-cocos2d-iphone.m"; path = "src/spine/spine-cocos2d-iphone.m"; sourceTree = "<group>"; };
@@ -230,9 +229,6 @@
 		43C3287B170B0DBE004A9460 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Resources-ios/Info.plist"; sourceTree = "<group>"; };
 		43C3287C170B0DBE004A9460 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = "Resources-ios/iTunesArtwork"; sourceTree = "<group>"; };
 		43C32889170B0E9F004A9460 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = "Resources-ios/Prefix.pch"; sourceTree = "<group>"; };
-		43C3288A170B0EF3004A9460 /* LICENSE_cocos2d.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_cocos2d.txt; path = libs/LICENSE_cocos2d.txt; sourceTree = SOURCE_ROOT; };
-		43C3288B170B0EF3004A9460 /* LICENSE_CocosDenshion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_CocosDenshion.txt; path = libs/LICENSE_CocosDenshion.txt; sourceTree = SOURCE_ROOT; };
-		43C3288C170B0EF3004A9460 /* LICENSE_Kazmath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_Kazmath.txt; path = libs/LICENSE_Kazmath.txt; sourceTree = SOURCE_ROOT; };
 		43C32891170B0F14004A9460 /* CCAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAction.h; sourceTree = "<group>"; };
 		43C32892170B0F14004A9460 /* CCAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAction.m; sourceTree = "<group>"; };
 		43C32893170B0F14004A9460 /* CCActionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionCamera.h; sourceTree = "<group>"; };
@@ -505,6 +501,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC39FD017E6D6AC00021235 /* CoreText.framework in Frameworks */,
 				9A5D2499170A94DA0030D4DD /* QuartzCore.framework in Frameworks */,
 				9A5D249B170A94DA0030D4DD /* OpenGLES.framework in Frameworks */,
 				9A5D249D170A94DA0030D4DD /* OpenAL.framework in Frameworks */,
@@ -988,6 +985,7 @@
 		9A5D2497170A94DA0030D4DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2CC39FCF17E6D6AC00021235 /* CoreText.framework */,
 				9A5D2498170A94DA0030D4DD /* QuartzCore.framework */,
 				9A5D249A170A94DA0030D4DD /* OpenGLES.framework */,
 				9A5D249C170A94DA0030D4DD /* OpenAL.framework */,
@@ -1007,9 +1005,6 @@
 				43C32890170B0F14004A9460 /* cocos2d */,
 				43C32960170B0F14004A9460 /* CocosDenshion */,
 				43C32970170B0F14004A9460 /* kazmath */,
-				43C3288A170B0EF3004A9460 /* LICENSE_cocos2d.txt */,
-				43C3288B170B0EF3004A9460 /* LICENSE_CocosDenshion.txt */,
-				43C3288C170B0EF3004A9460 /* LICENSE_Kazmath.txt */,
 			);
 			name = libs;
 			path = Spine;
@@ -1080,9 +1075,6 @@
 				43C32885170B0DBE004A9460 /* Icon.png in Resources */,
 				43C32886170B0DBE004A9460 /* Icon@2x.png in Resources */,
 				43C32888170B0DBE004A9460 /* iTunesArtwork in Resources */,
-				43C3288D170B0EF3004A9460 /* LICENSE_cocos2d.txt in Resources */,
-				43C3288E170B0EF3004A9460 /* LICENSE_CocosDenshion.txt in Resources */,
-				43C3288F170B0EF3004A9460 /* LICENSE_Kazmath.txt in Resources */,
 				43C329D7170B0F15004A9460 /* Place cocos2d here.txt in Resources */,
 				43C329F2170B0F15004A9460 /* Place CocosDenshion here.txt in Resources */,
 				43C329F3170B0F15004A9460 /* README.md in Resources */,
